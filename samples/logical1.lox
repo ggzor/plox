@@ -1,0 +1,7 @@
+print true and "Printed";
+print false and "Not printed";
+
+print false or "Printed";
+print true or "Not printed";
+
+print "ok" == "ok" and "Printed";

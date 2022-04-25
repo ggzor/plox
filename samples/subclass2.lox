@@ -1,0 +1,21 @@
+class A {
+  method() {
+    print "A's method";
+  }
+}
+
+class B < A {
+  method() {
+    print "B's method";
+  }
+
+  test() {
+    super.method();
+  }
+}
+
+class C < B { }
+
+var c = C();
+c.test();
+

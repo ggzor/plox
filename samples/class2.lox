@@ -1,0 +1,13 @@
+class Something {
+  test() {
+    print "Hello World";
+  }
+}
+
+var s = Something();
+
+s.hello = "Ok";
+print s.hello;
+print s;
+
+s.test();

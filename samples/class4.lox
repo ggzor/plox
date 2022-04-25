@@ -1,0 +1,8 @@
+class C {
+  init() {
+    var x = 10;
+    return;
+  }
+}
+
+print C();
