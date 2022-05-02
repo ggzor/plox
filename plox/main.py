@@ -19,8 +19,6 @@ def run(source):
     if result is None or Globals.had_error:
         return
 
-    print(LispPrinter().print_program(result))
-
     interpreter = Interpreter()
     resolver = Resolver(interpreter)
     resolver.resolve_list(result)
